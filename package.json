@@ -1,0 +1,34 @@
+{
+  "name": "ember-cli-zopfli",
+  "version": "1.0.0",
+  "description": "ember-cli add-on that uses Zopfli to generate gzipped assets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:joankaradimov/ember-cli-zopfli.git"
+  },
+  "keywords": [
+    "ember-addon",
+    "ember",
+    "gzip",
+    "zopfli"
+  ],
+  "author": "Joan Karadimov <joan.karadimov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joankaradimov/ember-cli-zopfli/issues"
+  },
+  "homepage": "https://github.com/joankaradimov/ember-cli-zopfli",
+  "dependencies": {
+    "@floatboth/broccoli-zopfli": "1.0.2"
+  },
+  "ember-addon": {
+    "after": [
+      "broccoli-asset-rev",
+      "ember-cli-sri"
+    ]
+  }
+}
